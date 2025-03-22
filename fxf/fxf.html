@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🎉 生日快乐，傅诩峰！</title>
+    <style>
+        body {
+            margin: 0;
+            background-image: url('./img/【哲风壁纸】好运发生-福.png');
+            background-size: cover;
+            background-attachment: fixed;
+            background-position: center;
+            font-family: 'Comic Sans MS', cursive;
+        }
+
+        .top-section {
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .cake-container {
+            text-align: center;
+            position: relative;
+            z-index: 1;
+            background-color: rgba(255, 255, 255, 0.7);
+            padding: 20px;
+            border-radius: 10px;
+        }
+
+        .cake {
+            width: 400px;
+            animation: float 3s ease-in-out infinite;
+        }
+
+        .fireworks {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+        }
+
+        .birthday-text {
+            font-size: 4rem;
+            color: #ff69b4;
+            margin: 20px 0;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+        }
+
+        .btn {
+            padding: 15px 30px;
+            font-size: 1.2rem;
+            background: #ff1493;
+            color: white;
+            border: none;
+            border-radius: 30px;
+            cursor: pointer;
+            transition: transform 0.3s;
+        }
+
+        .btn:hover {
+            transform: scale(1.05);
+        }
+
+        @keyframes float {
+            0%,
+            100% {
+                transform: translateY(0);
+            }
+
+            50% {
+                transform: translateY(-30px);
+            }
+        }
+
+        .photo-wishes-section {
+            display: flex;
+            align-items: center;
+            padding: 50px;
+            background-color: rgba(255, 255, 255, 0.7);
+            margin: 50px auto; /* 水平居中 */
+            max-width: 1200px; /* 限制最大宽度 */
+            border-radius: 20px; /* 增加圆角更美观 */
+        }
+
+        .photo {
+            width: 300px;
+            height: 300px;
+            object-fit: cover;
+            border-radius: 10px;
+        }
+
+        .wishes {
+            font-size: 1.2rem;
+            color: #333;
+        }
+
+        .photo-wishes-right {
+            flex-direction: row-reverse;
+            text-align: right;
+        }
+
+        .photo-wishes-right .photo {
+            margin-left: 30px;
+            margin-right: 0;
+        }
+
+        .bottom-section {
+            padding: 50px;
+            text-align: center;
+            background-color: rgba(255, 255, 255, 0.7);
+            margin: 50px auto; /* 水平居中 */
+            max-width: 1200px; /* 限制最大宽度 */
+            border-radius: 20px; /* 增加圆角更美观 */
+        }
+
+        .bottom-section h2 {
+            font-size: 3rem;
+            color: #ff69b4;
+        }
+
+        .bottom-section p {
+            font-size: 1.5rem;
+            color: #333;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="top-section">
+        <div class="fireworks"></div>
+        <div class="cake-container">
+            <img src="./img/1.png" alt="生日蛋糕" class="cake">
+            <h1 class="birthday-text">🎉 生日快乐，傅诩峰！🎉</h1>
+            <p>愿你的每一天都像今天一样充满阳光和欢笑！</p>
+            <button class="btn" onclick="playMusic()">🎵 播放生日歌</button>
+        </div>
+    </div>
+
+    <div class="photo-wishes-section">
+        <img class="photo" src="./img/1.jpg" alt="照片1">
+        <div class="wishes">
+            兄弟如星辰，在各自的天空闪耀，却永远遥相辉映。记得那些一起熬夜刷题的夜晚，你总把最后一口可乐推给我；那些被老师点名的尴尬时刻，你总能用一个鬼脸化解紧张。时光流转，我们从青涩少年蜕变成独当一面的大人，但你眼底的真诚与热忱从未改变。如今你在自己的领域风生水起，我却依然记得那个为了帮我追回风筝，不惜爬上老槐树的男孩。新的一岁，愿你继续带着这份赤子之心翱翔，无论何时何地，我始终是你回望时的灯塔，前行时的春风。生日快乐，我的骄傲与底气！
+        </div>
+    </div>
+
+    <div class="photo-wishes-section photo-wishes-right">
+        <img class="photo" src="./img/2.jpg" alt="照片2">
+        <div class="wishes">
+            不知不觉，我们已经一起走过了这么多年。你总是用幽默化解生活的压力，用行动诠释什么是责任与担当。看着你在事业上稳步前行，在生活中把日子过得热气腾腾，作为兄弟，我打心底里为你骄傲。愿未来的日子里，你能继续保持这份对生活的热爱，所求皆如愿，所行皆坦途。无论何时，只要你转身，我都会在你身后，陪你笑、陪你闹，陪你迎接每一个挑战。生日快乐，我最亲爱的兄弟！
+        </div>
+    </div>
+
+    <div class="photo-wishes-section">
+        <img class="photo" src="./img/3.jpg" alt="照片3">
+        <div class="wishes">
+            兄弟是岁月长河里的同行者，是彼此青春的最佳注解。那些一起疯闹的午后，那些促膝长谈的夜晚，早已编织成我们生命中最珍贵的记忆。你总是在我迷茫时点亮明灯，在我低落时注入力量，这份情谊早已深深镌刻在时光里。新的一岁，愿你的每一步都走得坚定而从容，愿你的每一天都充满欢笑与感动。无论未来的路通向何方，我们永远是彼此最忠实的依靠。生日快乐，我的挚友，有你在，人间值得！
+        </div>
+    </div>
+
+    <div class="bottom-section">
+        <h2>特别的祝福</h2>
+        <p>兄弟，你是我生命里永不熄灭的火把，照亮过我所有的暗夜，也将继续引燃我们未来的每一寸征途。那些一起在暴雨中狂奔的青春，那些在低谷里互相托举的日子，早已淬炼出我们独有的默契密码。新的一岁，愿你的笑容永远像晴空般爽朗，愿你的脚步永远像风一样自由 —— 无论何时，我都是你回头就能看见的那盏灯，更是陪你把天涯走成故乡的同路人。生日快乐，我的永恒战友，有你在，连时光都不敢老去！</p>
+    </div>
+
+    <script>
+        function playMusic() {
+            const audio = new Audio('./audio/M500002pRZLg2c6XPm.mp3');
+            audio.play().catch(err => console.error('播放失败:', err));
+        }
+
+        class Firework {
+            constructor() {
+                this.x = Math.random() * window.innerWidth;
+                this.y = window.innerHeight;
+                this.size = Math.random() * 5 + 2;
+                this.speedX = Math.random() * 3 - 1.5;
+                this.speedY = Math.random() * -8 - 5;
+                this.color = `hsl(${Math.random() * 360}, 100%, 50%)`;
+            }
+
+            update() {
+                this.x += this.speedX;
+                this.y += this.speedY;
+                this.size *= 0.95;
+            }
+
+            draw(ctx) {
+                ctx.beginPath();
+                ctx.arc(this.x, this.y, this.size, 0, Math.PI * 2);
+                ctx.fillStyle = this.color;
+                ctx.fill();
+            }
+        }
+
+        const canvas = document.createElement('canvas');
+        canvas.width = window.innerWidth;
+        canvas.height = window.innerHeight;
+        document.querySelector('.fireworks').appendChild(canvas);
+        const ctx = canvas.getContext('2d');
+        let fireworks = [];
+
+        function createFireworks() {
+            for (let i = 0; i < 5; i++) {
+                fireworks.push(new Firework());
+            }
+        }
+        setInterval(createFireworks, 100);
+
+        function animate() {
+            ctx.clearRect(0, 0, canvas.width, canvas.height);
+            fireworks.forEach((firework, index) => {
+                firework.update();
+                firework.draw(ctx);
+                if (firework.size < 0.1) {
+                    fireworks.splice(index, 1);
+                }
+            });
+            requestAnimationFrame(animate);
+        }
+        animate();
+    </script>
+</body>
+
+</html> 
